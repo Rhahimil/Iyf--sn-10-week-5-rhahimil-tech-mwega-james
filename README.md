@@ -1,8 +1,8 @@
 # Week 5: DOM Manipulation
 
 ## Author
-- **Name:** [Your Full Name]
-- **GitHub:** [@yourusername](https://github.com/yourusername)
+- **Name:** James Mwega Kariuki
+- **GitHub:** [@Rhahimil](https://github.com/Rhahimil)
 - **Date:** April 18, 2026
 
 ## Project Description
@@ -29,7 +29,8 @@ An interactive To-Do List application built with vanilla JavaScript, demonstrati
 
 ## Lessons Learned
 - DOM selection and manipulation techniques
-- Event handling and delegation
+- Event handling and delegation with `closest()` – Using `closest()` in delegated listeners is crucial because it traverses up the DOM tree to find the nearest ancestor matching a selector, allowing a single event listener on a parent element to efficiently handle interactions on dynamically created child elements without attaching individual listeners to each one.
+- `closest()` simplifies complex event targeting by eliminating the need to manually check parent elements or maintain references to individual DOM nodes, reducing memory overhead and improving performance on large lists.
 - State management in vanilla JavaScript
 - CSS styling for interactive components
 - Form validation and user input handling
